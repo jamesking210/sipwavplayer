@@ -17,7 +17,7 @@ sudo nano /etc/asterisk/sip.conf
 ```
 Step 4: add wav files to the wav folder. I used winSCP
 the .wav file must be a sample rate of 8000 Hz and mono audio.
-most likley your user sounds will be in the sounds/en filder located in the en directory. make a wav directory.
+most likley your user sounds will be in the sounds/en folder located in the en directory. make a wav directory.
 ```bash
 cd /usr/share/asterisk/sounds/en/
 ```
