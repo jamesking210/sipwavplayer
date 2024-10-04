@@ -1,5 +1,5 @@
-This Project was written so when you call a client either hosted on a raspberry pi debian/ubuntu machine like me using a proxmox lxc container, it plays a random .wav file from a folder.
-My wav files are named 0922-2.wav through 0922-26.wav in the extensions folder, do not include .wav extension.
+This Project was written so when you call a client either hosted on a proxmox lxc or raspberry pi debian/ubuntu machine. it plays a random .wav file from a folder.
+*My wav files are named 0922-2.wav through 0922-26.wav in the extensions folder, do not include .wav extension.
 
 
 Step 1: update your repositories
@@ -25,7 +25,7 @@ sudo nano /etc/asterisk/extensions.conf
 Step 6: restart asterisk
 sudo asterisk -rx "reload"
 
-Troubleshooting from what i learned
+Troubleshooting from what I've learned
 1. If you call into the extension & it's a busy signal it's probably the sip.conf issue
 2. if you call into the extension & it hangs up or you hear anything other than your wav files then it's your extensions.conf file.
 3. to pull up live asterisk logs while you test, run
