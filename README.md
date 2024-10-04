@@ -11,7 +11,7 @@ Step 2: install asterisk
 sudo apt install asterisk
 ```
 Step 3: edit the sip.config file to work in your case. Here is mine with redacted info
-You'll need to update the USERNAME, PASSWORD, and SERVER_ADDRESS to match your enveronviment in my example extensions.conf file.
+You'll need to update the USERNAME, PASSWORD, and SERVER_ADDRESS to match your enveronviment in my example sip.conf file.
 ```bash
 sudo nano /etc/asterisk/sip.conf
 ```
