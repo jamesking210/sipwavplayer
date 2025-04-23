@@ -1,6 +1,9 @@
 ### This Project was written so when you call a client either hosted on a Proxmox lxc or raspberry pi debian/ubuntu machine. it plays a random .wav file from a folder.
 I'm use Proxmox and Helper-Scripts https://tteck.github.io/Proxmox/#ubuntu-lxc
 ### Optional Step depending on your environment. RUN ADVANCED SETUP AND RENAME LXC & ENABLE SSH
+
+Youtube How-To Video: https://www.youtube.com/watch?v=VVNJMFVjGGI
+
 ```bash
 bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/ubuntu.sh)"
 ```
