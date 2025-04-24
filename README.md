@@ -38,7 +38,7 @@ to get the machine's ip:
 ip a
 ```
 Step 5: edit the extensions.conf files dialing plans
-You'll need to update based on your file names in your wav folder. you can use my example extensions.conf as my wav filenames are 0922-2 through 0922-26.
+You'll need to update based on your file names in your wav folder. you can use my example extensions.conf as my wav filenames are 0922-2 through 0922-26. Please edit the top two lines with your DID number(s) remove a line if you only have one DID. exten => 5555551234,1,Goto(s,1) REPLACE THE 5555551234 with your DID number.
 ```bash
 sudo nano /etc/asterisk/extensions.conf
 ```
