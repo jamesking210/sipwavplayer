@@ -53,6 +53,9 @@ Troubleshooting from what I've learned
 ```bash
 sudo tail -f /var/log/asterisk/messages
 ```
+```bash
+sudo asterisk -rvvvvv
+```
 Sites that helped:
 https://cloudconvert.com/mp4-to-wav
 https://tteck.github.io/Proxmox/#ubuntu-lxc
