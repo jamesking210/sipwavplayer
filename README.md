@@ -3,6 +3,7 @@ I'm use Proxmox and Helper-Scripts https://tteck.github.io/Proxmox/#ubuntu-lxc
 ### Optional Step depending on your environment. RUN ADVANCED SETUP AND RENAME LXC & ENABLE SSH
 
 Youtube How-To Video: https://www.youtube.com/watch?v=VVNJMFVjGGI
+Product inspiration for this project: https://www.youtube.com/watch?v=OGLVeeOa844
 
 ```bash
 bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/ubuntu.sh)"
