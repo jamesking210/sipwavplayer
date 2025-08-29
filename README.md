@@ -6,7 +6,7 @@ Youtube How-To Video: https://www.youtube.com/watch?v=VVNJMFVjGGI
 Product inspiration for this project: https://www.youtube.com/watch?v=OGLVeeOa844
 
 ```bash
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/ubuntu.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/ubuntu.sh)"
 ```
 
 *My wav files are named 0922-2.wav through 0922-26.wav in the extensions folder, do not include .wav extension.
