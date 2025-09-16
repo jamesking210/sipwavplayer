@@ -9,7 +9,7 @@ Product inspiration for this project: https://www.youtube.com/watch?v=OGLVeeOa84
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/ubuntu.sh)"
 ```
 
-*My wav files are named 0922-2.wav through 0922-26.wav in the extensions folder, do not include .wav extension.
+*My wav files are named 0922-2.wav through 0922-27.wav in the extensions folder, do not include .wav extension.
 
 Step 1: update your repositories
 ```bash
